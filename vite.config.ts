@@ -9,7 +9,6 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
       "@app": path.resolve(__dirname, "./src/app"),
       "@assets": path.resolve(__dirname, "./src/assets"),
-      "@tabler/icons-react3": "@tabler/icons-react/dist/esm/icons/index.mjs",
     },
   },
   plugins: [react()],
