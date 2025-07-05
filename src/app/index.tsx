@@ -1,9 +1,10 @@
+import { Home } from "../modules/home";
 import { AppProvider } from "./provider";
 
 export default function App() {
   return (
-      <AppProvider>
-        <h1>hello</h1>
-      </AppProvider>
+    <AppProvider>
+      <Home />
+    </AppProvider>
   );
 }
