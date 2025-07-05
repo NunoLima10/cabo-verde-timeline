@@ -4,5 +4,9 @@ import type { PropsWithChildren } from "react";
 import { theme } from "./theme";
 
 export function AppProvider({ children }: PropsWithChildren) {
-  return <MantineProvider theme={theme}>{children}</MantineProvider>;
+  return (
+    <MantineProvider defaultColorScheme="dark" theme={theme}>
+      {children}
+    </MantineProvider>
+  );
 }

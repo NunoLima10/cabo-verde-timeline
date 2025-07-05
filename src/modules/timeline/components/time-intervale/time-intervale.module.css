@@ -1,0 +1,34 @@
+.boxLight {
+  width: 70%;
+
+  @mixin light {
+    background-color: var(--mantine-color-gray-1);
+  }
+  @mixin dark {
+    background-color: var(--mantine-color-gray-4);
+  }
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    width: 30%;
+  }
+  @media (max-width: $mantine-breakpoint-xs) {
+    width: 15%;
+  }
+}
+.boxDark {
+  width: 70%;
+
+  @mixin light {
+    background-color: var(--mantine-color-gray-3);
+  }
+  @mixin dark {
+    background-color: var(--mantine-color-gray-5);
+  }
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    width: 30%;
+  }
+   @media (max-width: $mantine-breakpoint-xs) {
+    width: 15%;
+  }
+}

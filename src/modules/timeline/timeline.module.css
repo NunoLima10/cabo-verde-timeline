@@ -1,7 +1,6 @@
-.timeline{
-    width: 80%;
-    margin-bottom: rem(200px);
-
+.timeline {
+  width: 80%;
+  @media (max-width: $mantine-breakpoint-sm) {
+    width: 100%;
+  }
 }
-
-
