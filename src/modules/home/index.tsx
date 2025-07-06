@@ -11,10 +11,12 @@ export function Home() {
       <Stack gap={"md"} >
         <Title order={3} ta={"center"}>O que é Cabo Verde Timeline?</Title>
         <Text c={"dimmed"} maw={"800"} >
-          Cabo Verde Timeline é um projeto interativo que apresenta os
-          principais marcos da história de Cabo Verde de forma visual e
-          proporcional. Cada linha tem altura de um pixel representa um ano,
+          Cabo Verde Timeline é um linha temporal interativa
+          que apresenta os principais marcos da história de Cabo Verde
+          de forma visual e proporcional.
+          À escala de 1:1, cada linha de 1 pixel representa um ano,
           permitindo perceber a verdadeira dimensão do tempo entre os eventos.
+          A escala pode ser ajustada dinâmicamente para revelar eventos com maior granularidade.
         </Text>
       </Stack>
       <Timeline />
