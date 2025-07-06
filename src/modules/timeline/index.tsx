@@ -40,7 +40,7 @@ export function Timeline() {
           variant="light"
         />
         <TimeIntervale
-          label="Início povoamento"
+          label="Início do povoamento"
           start={1462}
           end={1876}
           scale={scale}
